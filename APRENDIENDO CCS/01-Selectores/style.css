@@ -1,0 +1,64 @@
+
+
+/*
+
+#######SELECTORES#######
+*/
+
+/*#######SELECTOR UNIVERSAL#######*/
+
+*{
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+/*#######SELECTOR de ETIQUETA#######*/
+
+h1{
+background-color: brown;
+color: violet;
+padding: 10px;
+}
+
+a{
+  font-size: 18px;  
+  color: red;
+  text-decoration: none;/*Para que no ponga esa barra al enlace*/
+}
+/*#######SELECTOR DE ID #######
+Para agregar colores a un id se debe poner asterisco y el nombre del id*/
+#Descripcion{
+  border: 1px  solid rgb(255, 0, 149);
+  padding: 5px;
+  
+}
+
+
+
+
+/*#######SELECTOR DE CLASE#######
+para este selecctor se pone un punto y el nombre dela clase*/
+
+.parrafo{
+  font-style: italic;
+  font-weight: bolder;
+}
+
+
+
+/*#######SELECTOR DE HIJO#######*/
+
+#menu > li > a{
+  text-decoration: none;/*Para que no ponga esa barra al enlace*/
+  font-size: 18px;  
+color:aquamarine;
+}
+
+
+/*#######PRIORIDAD####### Mientras mas especifica la regla mas prioridad tiene*/
+
+#Saludo h1{
+  background: pink;
+}
+h1{
+  background-color: blueviolet  !important;
+}

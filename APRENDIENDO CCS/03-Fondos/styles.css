@@ -1,0 +1,21 @@
+body{
+ /*background-color: blueviolet; 
+ background-image: url(Img/imagen1.jpg);
+ 
+ background-attachment: fixed;*/
+
+ text-align: justify;
+
+}
+
+#caja{
+  border: 5px solid black; 
+  background-color: chartreuse; 
+  color: black;
+text-align: center;
+
+}
+
+H2{
+
+}

@@ -1,0 +1,37 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+
+
+.CAJA{
+display: block;
+width: 250PX;
+height:250PX ;
+border: 10px solid red;
+background-color: aquamarine;
+margin: 15px;
+padding: 20px;
+float: left;
+}
+
+p{
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+body{
+    padding: 50px;
+}
+
+#CAJAS{
+  max-width: 10000PX;
+}
